@@ -22,4 +22,4 @@ An AI-powered marketing toolkit that generates high-conversion ads, email subjec
 4. Run the app: `python3 -m streamlit run content_suite.py`
 
 ## App Screenshot
-![AI Content Suite](screenshot.png)
+![AI Content Suite](Screenshot.png)
