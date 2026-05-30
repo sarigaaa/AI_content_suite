@@ -1,23 +1,22 @@
-EADMEs + LinkedIn post + cert
-~45 min
-▼
-Why this matters as much as the code
-Code without documentation is invisible. An employer visiting your GitHub sees a list of files — nothing more. A README tells the story: what it does, why it matters, how to use it, and where to see it live. This turns your GitHub from a code dump into a portfolio.
-README template — use this for each project
-Create a file called README.md in each project folder.
-
-# Project Name
-One sentence: what it does.
+# AI Content Suite
+An AI-powered marketing toolkit that generates high-conversion ads, email subject lines, blog intros, and product descriptions in seconds.
 
 ## Live demo
-[Click here to use the app](your-streamlit-url)
+[Click here to use the AI Content Suite](https://aicontentsuite-lrfb8okctneg4xmjxnvft2.streamlit.app/)
 
 ## What it does
-- Feature 1
-- Feature 2
+- **Ad Generator:** Creates platform-specific ad copy for Instagram, LinkedIn, and Facebook.
+- **Email Subject Lines:** Generates high-click-through subject lines based on your topic.
+- **Blog Intro Writer:** Writes engaging, SEO-friendly 3-paragraph blog introductions.
+- **Product Description:** Generates compelling, professional product descriptions.
 
 ## Built with
-Python · Streamlit · Groq API · LLaMA 3
+- Python
+- Streamlit
+- Groq API (LLaMA 3.3 70B)
 
-## Screenshot
-(drag a screenshot image into the README file on GitHub)
+## How to run locally
+1. Clone the repo: `git clone https://github.com/sarigaaa/AI_content_suite.git`
+2. Install dependencies: `pip install -r requirements.txt`
+3. Set your API Key: `export GROQ_API_KEY='your_key_here'`
+4. Run the app: `python3 -m streamlit run content_suite.py`
